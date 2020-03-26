@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" class="splash">
+<head>
+    <meta name="flattr:id" content="mezy22">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="HereNow.css">
+	<script src='datetime.js' async defer></script>
+	<title>Here Now</title>
+</head>
+<body>
+	<div class="splash">
+		<div class="container">
+			<div class="spacey-quote">
+				<div class="line">&#8220;And the future never comes.</div>
+				<div class="line line-right">What comes is always here now.&#8221;</div>
+				<div class="line-right">-Osho</div>
+			</div>
+			<form method="post" action="/" id="loginForm">
+				<label class="singleLined">U: <input type="text" name="username" autofocus /></label>
+				<label class="singleLined">P: <input type="password" name="password" onfocus="formInUse = true;" /></label>
+				<button type="submit" class="border button g-recaptcha"
+					data-sitekey="6LduHjEUAAAAALQZpICmAtjpboL3ZfISVFItJIXs"
+					data-callback="recaptchaSubmit">One now</button>
+				<img src="img/bg.png" />
+				<input type="hidden" name="loginKey" value="221c6ab5609a">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

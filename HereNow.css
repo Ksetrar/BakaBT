@@ -1,0 +1,52 @@
+html.splash,html.splash body,html.splash .splash{
+    height:100%;
+    min-height:100%
+}
+html.splash body{
+    background-image:url(/img/noise.png)
+}
+@import "https://fonts.googleapis.com/css?family=Open+Sans:700,300,400";
+html.splash .splash{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    width:100%;
+    font-family:open sans,sans-serif
+}
+html.splash .container{
+    width:700px
+}
+html.splash .spacey-quote{
+    padding:20px;
+    margin-bottom:40px
+}
+html.splash .spacey-quote.pushRightForCenter{
+    position:relative;
+    left:100px
+}
+html.splash .line{
+    font-size:40px;
+    font-style:italic
+}
+html.splash .line-right{
+    text-align:right
+}
+html.splash .error,html.splash .success{
+    text-align:center
+}
+html.splash form{
+    margin:0 auto;
+    width:150px;
+    text-align:center
+}
+html.splash input,html.splash button{
+    display:inline-block;
+    margin-top:10px
+}
+html.splash label.singleLined{
+    white-space:nowrap
+}
+html.splash img{
+    margin-top:20px
+}
